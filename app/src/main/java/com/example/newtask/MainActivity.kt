@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity(){
         imageObjects.add(Images(R.drawable.shiv1,"SHIV"))
         imageObjects.add(Images(R.drawable.shiv2,"SHIV"))
         imageObjects.add(Images(R.drawable.shiv3,"SHIV"))
+        imageObjects.add(Images(R.drawable.shiv1,"SHIV"))
 
 
 
