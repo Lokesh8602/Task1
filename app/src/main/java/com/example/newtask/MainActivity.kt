@@ -10,6 +10,9 @@ class MainActivity : AppCompatActivity(){
         setContentView(R.layout.activity_main)
         val imageObjects : MutableList<Images>  = mutableListOf()
         imageObjects.add(Images(R.drawable.shiv1,"SHIV"))
+        imageObjects.add(Images(R.drawable.shiv2,"SHIV"))
+
+
 
 
         viewPage.adapter = viewPagerAdapter(imageObjects)
